@@ -81,3 +81,18 @@ $messages['nl'] = array(
 	'right-langconfig' => 'Kan [[Special:Funmwlangs]] gebruiken', 
 	'funmwlangs-desc2' => '"Fun MediaWiki Languages" voor uw installatie voegt verschillende taal opties toe an uw wiki die u kunt beheren via een speciale pagina.' 
 );  
+
+$messages['pt-br'] = array(
+	'funmwlangs' => 'Gerencie línguas customizadas',
+	'funmwlangs-desc' => 'Dá aos administradores a abilidade de gerenciar "Fun MediaWiki Languages" usando uma página especial',
+	'funmwlangs-header' => 'Você pode ativar, desativar, e renomear línguas customizadas aqui. Para adicionar uma nova língua use os campos em branco no topo',
+	'funmwlangs-invalid' => 'O código da língua pode conter apenas minúsculas e um hífen, deve ter no mínimo duas letras, e não pode começar ou terminar com um hífen. O nome da língua não pode estar em branco',
+	'funmwlangs-nowrite' => 'Ouve um erro ao tentar escrever no arquivo de configuração, não foi feita nenhuma alteração.',
+	'funmwlangs-success' => 'As mudanças foram aplicadas com sucesso!',
+	'funmwlangs-enabled' => 'Ativado',
+	'funmwlangs-langcode' => 'Código da Língua',
+	'funmwlangs-langname' => 'Nome da Língua',
+	'funmwlangs-submit' => 'Enviar',
+	'right-langconfig' => 'Pode-se usar [[Special:Funmwlangs]]',
+	'funmwlangs-desc2' => 'Fun MediaWiki Languages para a sua instalação. Adicione várias opções de linguagem para a wiki que podem ser gerenciadas por uma página especial.'
+);

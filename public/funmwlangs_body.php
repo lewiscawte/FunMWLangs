@@ -24,18 +24,6 @@ class funmwlangs extends SpecialPage {
 		$this->setHeaders();
 		$wgOut->addWikiMsg( 'funmwlangs-header' );
 		
-		//handle submission
-		if( $wgRequest->wasPosted() ) {
-			$clOld = $wgfunmwlangs;
-			 if( !$wgRequest->getVal( 'wpNewLang' ) ) {
-				$nl = $wgRequest->getVal( 'wpNewLang' );
-				$nld = $wgRequest->getVal( 'wpNewLangDesc', false );
-				if( !preg_match( '/^[a-z][a-z-]*[a-z]$/', $nl ) || !$nld ) {
-					$wgOut->addWikiMsg( 'funmwlangs-invalid' );
-				} else {
-					$wgfunmwlangs[$nl] = array( ($wgRequest->getCheck( 'wpNewLangEnabled' ) ? 1 : 0), $nld );
-				}
-			}
 			//get values
 			foreach( $wgfunmwlangs as $key => $stuff ) {
 				$wgfunmwlangs[$key][0] = $wgRequest->getCheck( 'wpLang-' . $key );
@@ -61,8 +49,7 @@ class funmwlangs extends SpecialPage {
 		$thisTitle = Title::makeTitle( NS_SPECIAL, $this->getName() );
 		$wgOut->addHTML( '<form method="post" action="' . $thisTitle->getLocalUrl() . '">
 <table cellspacing="10">
-<tr><th>' . wfMsg( 'funmwlangs-langcode' ) . '</th><th>' . wfMsg( 'funmwlangs-enabled' ) . '</th><th>' . wfMsg( 'funmwlangs-langname' ) . '</th></tr>
-<tr><td><input type="text" name="wpNewLang" value="" /></td><td><input type="checkbox" name="wpNewLangEnabled" id="wpNewLangEnabled" value="1" /> <label for="wpNewLangEnabled">' . wfMsg( 'funmwlangs-enabled' ) . '</label></td><td><input type="text" name="wpNewLangDesc" value="" /></td></tr>' );
+<tr><th>' . wfMsg( 'funmwlangs-langcode' ) . '</th><th>' . wfMsg( 'funmwlangs-enabled' ) . '</th><th>' . wfMsg( 'funmwlangs-langname' ) . '</th></tr>' );
 		foreach( $wgfunmwlangs as $key => $stuff ) {
 			$wgOut->addHTML( '<tr><td>' . $key . '</td><td><input type="checkbox" name="wpLang-' . $key . '" id="wpLang-' . $key . '" value="1"' . ($stuff[0] ? ' checked="checked"' : '') . ' /> <label for="wpLang-' . $key . '">' . wfMsg( 'funmwlangs-enabled' ) . '</label></td><td><input type="text" name="wpLangDesc-' . $key . '" value="' . str_replace( '"', '\"', $stuff[1] ) . '" /></td></tr>' . "\n" );
 		}

@@ -24,6 +24,18 @@ class funmwlangs extends SpecialPage {
 		$this->setHeaders();
 		$wgOut->addWikiMsg( 'funmwlangs-header' );
 		
+		//handle submission
+		if( $wgRequest->wasPosted() ) {
+			$clOld = $wgfunmwlangs;
+			 if( !$wgRequest->getVal( 'wpNewLang' ) ) {
+				$nl = $wgRequest->getVal( 'wpNewLang' );
+				$nld = $wgRequest->getVal( 'wpNewLangDesc', false );
+				if( !preg_match( '/^[a-z][a-z-]*[a-z]$/', $nl ) || !$nld ) {
+					$wgOut->addWikiMsg( 'funmwlangs-invalid' );
+				} else {
+					$wgfunmwlangs[$nl] = array( ($wgRequest->getCheck( 'wpNewLangEnabled' ) ? 1 : 0), $nld );
+				}
+			}
 			//get values
 			foreach( $wgfunmwlangs as $key => $stuff ) {
 				$wgfunmwlangs[$key][0] = $wgRequest->getCheck( 'wpLang-' . $key );

@@ -35,7 +35,7 @@ $wgExtensionCredits['specialpage'][] = array(
         'path' => __FILE__,
 	'name' => 'Fun MediaWiki Languages',
 	'version' => 0.3,
-	'author' => 'Lewis Cawte, Others ([http://funmwlangs.sourceforge.net/wiki/Team List])',
+	'author' => 'Lewis Cawte, [http://funmwlangs.sourceforge.net/wiki/Team Others]',
 	'url' => 'https://sourceforge.net/projects/funmwlangs',
 	'descriptionmsg' => 'funmwlangs-desc2',
 );

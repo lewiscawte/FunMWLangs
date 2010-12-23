@@ -59,7 +59,7 @@ class funmwlangs extends SpecialPage {
 		
 		//build form
 		$thisTitle = Title::makeTitle( NS_SPECIAL, $this->getName() );
-		$wgOut->addHTML( '<form method="post" action="' . $thisTitle->getLocalUrl() . '">
+		$wgOut->addHTML( '<form method="post" action="' . $this->getTitle()->getLocalUrl() . '">
 <table cellspacing="10" class="wikitable">
 <tr><th>' . wfMsg( 'funmwlangs-langcode' ) . '</th><th>' . wfMsg( 'funmwlangs-enabled' ) . '</th><th>' . wfMsg( 'funmwlangs-langname' ) . '</th></tr>' );
 		foreach( $wgfunmwlangs as $key => $stuff ) {

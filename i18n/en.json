@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lcawte"
+		]
+	},
+	"funmwlangs": "Manage custom languages",
+	"funmwlangs-desc": "Give admins ability to manage \"Fun MediaWiki Languages\" via a special page",
+	"funmwlangs-header": "You may enable, disable, and rename custom languages here. To add a new language, use the blank textboxes on top",
+	"funmwlangs-invalid": "The language code may only contain lowercase letters and a hyphen, must be at least two letters long, and cannot start or end with a hyphen. The language name cannot be blank",
+	"funmwlangs-nowrite": "Error writing to configuration file, no changes have been made",
+	"funmwlangs-success": "Changes have been successfully made!",
+	"funmwlangs-enabled": "Enabled",
+	"funmwlangs-langcode": "Language Code",
+	"funmwlangs-langname": "Language Name",
+	"funmwlangs-submit": "Submit",
+	"right-langconfig": "Can use [[Special:Funmwlangs]]",
+	"funmwlangs-desc2": "Fun MediaWiki Languages for your installation. Adds various language options to the wiki that can be managed by a special page."
+}

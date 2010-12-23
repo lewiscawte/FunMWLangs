@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Samdo994",
+			"FreddyderHamster"
+		]
+	},
+	"funmwlangs": "Verwalten von benutzerdefinierten Sprachen",
+	"funmwlangs-desc": "Die Faehigkeit der Verwaltung des \"Fun MediaWiki Languages\" kann den Administratoren ueber eine spezielle Seite geben werden",
+	"funmwlangs-header": "Hier koennen Sie benutzerdefinierte Sprachen aktivieren, deaktivieren und umbennenen. Um eine neue Sprache hinzuzufuegen, benutzen Sie die leeren Textfelder oben",
+	"funmwlangs-invalid": "Der Sprachen-code darf nur Kleinbuchstaben und einen Bindestrich beinhalten, er muss mindestens zwei Zeichen lang sein und kann nicht mit einem Bindestrich beginnen oder enden. Der Sprachenname darf nicht unausgefuellt sein",
+	"funmwlangs-nowrite": "Fehler beim Schreiben einer Konfigurationsdatei, keine Veraenderungen ausgefuehrt",
+	"funmwlangs-success": "Aenderungen wurden erfolgreich ausgefuehrt!",
+	"funmwlangs-enabled": "Aktiviert",
+	"funmwlangs-langcode": "Sprachen Code",
+	"funmwlangs-langname": "Sprachen Name",
+	"funmwlangs-submit": "Einreichen",
+	"right-langconfig": "Kann [[Special:Funmwlangs]] benutzen",
+	"funmwlangs-desc2": "Fun MediaWiki Languages fuer ihre Installation. Fuegt verschiedene Sprachoptionen zum wiki hinzu, die ueber eine Spezialseite verwaltet werden koennen."
+}

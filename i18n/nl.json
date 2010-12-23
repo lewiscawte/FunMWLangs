@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jedimca0"
+		]
+	},
+	"funmwlangs": "Beheer taal opties",
+	"funmwlangs-desc": "Geef administratoren de mogelijkheid om \"Fun MediaWiki Languages\" te beheren via een speciale pagina",
+	"funmwlangs-header": "U mag nieuwe talen hier activeren, deactiveren en een andere naam geven. Om nieuwe talen toe te voegen gebruikt u de lege textboxen boven aan deze pagina",
+	"funmwlangs-invalid": "De taal code mag alleen kleine letters en verbindings streepjes bevatten, moet minimaal twee letters bevatten en mag niet beginnen of eindigen met een verbindings streepje. De taal naam mag niet leeg zijn",
+	"funmwlangs-nowrite": "Er heeft zich een fout voorgedaan bij het bewerken van het configuratie bestand, er zijn geen veranderingen opgeslagen",
+	"funmwlangs-success": "De veranderingen zij succesvol toegevoegd!",
+	"funmwlangs-enabled": "geactiveerd",
+	"funmwlangs-langcode": "Code van de taal",
+	"funmwlangs-langname": "Naam van de taal",
+	"funmwlangs-submit": "Voeg toe",
+	"right-langconfig": "Kan [[Special:Funmwlangs]] gebruiken",
+	"funmwlangs-desc2": "\"Fun MediaWiki Languages\" voor uw installatie voegt verschillende taal opties toe an uw wiki die u kunt beheren via een speciale pagina."
+}

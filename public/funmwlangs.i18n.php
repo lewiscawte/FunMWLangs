@@ -6,6 +6,9 @@ if( !defined( 'MEDIAWIKI' ) ) {
 
 $messages = array();
 
+/** English
+ * @author Lcawte
+ */
 $messages['en'] = array(
 	'funmwlangs' => 'Manage custom languages',
 	'funmwlangs-desc' => 'Give admins ability to manage "Fun MediaWiki Languages" via a special page',
@@ -21,6 +24,9 @@ $messages['en'] = array(
 	'funmwlangs-desc2' => 'Fun MediaWiki Languages for your installation. Adds various language options to the wiki that can be managed by a special page.'
 );
 
+/** Pirate English
+ * @author Lcawte
+ */
 $messages['en-arr'] = array(
 	'funmwlangs' => 'Manage custom talk, arrr..',
 	'funmwlang-desc' => 'Give captains the skill to manage "Fun MediaWiki Talk" via a rare page',
@@ -36,6 +42,8 @@ $messages['en-arr'] = array(
 	'funmwlangs-desc2' => 'Fun MediaWiki Languages for ye installation. Adds various talk names to ye wiki, that can be managed by a special page'
 );
 /*
+/** Posh English
+ * @author Lcawte
 $messages['en-posh'] = array(
 	'funmwlangs' => 'Manage the custom languages',
 	'funmwlang-desc' => 'Give Estate keepers ability',
@@ -52,6 +60,10 @@ $messages['en-posh'] = array(
 );
 */
 
+/** German (Deutsch)
+ * @author Samdo994
+ * @author FreddyderHamster
+ */
 $messages['de'] = array( 
 	    'funmwlangs' => 'Verwalten von benutzerdefinierten Sprachen', 
 	    'funmwlangs-desc' => 'Die Faehigkeit der Verwaltung des "Fun MediaWiki Languages" kann den Administratoren ueber eine spezielle Seite geben werden', 
@@ -67,6 +79,9 @@ $messages['de'] = array(
 	    'funmwlangs-desc2' => 'Fun MediaWiki Languages fuer ihre Installation. Fuegt verschiedene Sprachoptionen zum wiki hinzu, die ueber eine Spezialseite verwaltet werden koennen.' 
 );
 
+/** Dutch (Nederlands)
+ * @author Jedimca0
+ */
 $messages['nl'] = array( 
 	'funmwlangs' => 'Beheer taal opties', 
 	'funmwlangs-desc' => 'Geef administratoren de mogelijkheid om "Fun MediaWiki Languages" te beheren via een speciale pagina', 
@@ -80,8 +95,11 @@ $messages['nl'] = array(
 	'funmwlangs-submit' => 'Voeg toe', 
 	'right-langconfig' => 'Kan [[Special:Funmwlangs]] gebruiken', 
 	'funmwlangs-desc2' => '"Fun MediaWiki Languages" voor uw installatie voegt verschillende taal opties toe an uw wiki die u kunt beheren via een speciale pagina.' 
-);  
-
+); 
+ 
+/** Brazilian Portuguese (PortuguÃªs do Brasil)
+ * @author Marlop
+ */
 $messages['pt-br'] = array(
 	'funmwlangs' => 'Gerencie línguas customizadas',
 	'funmwlangs-desc' => 'Dá aos administradores a abilidade de gerenciar "Fun MediaWiki Languages" usando uma página especial',

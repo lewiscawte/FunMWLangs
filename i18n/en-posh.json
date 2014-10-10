@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lcawte"
+		]
+	},
+	"funmwlangs": "Manage the custom languages",
+	"funmwlang-desc": "Give Estate keepers ability",
+	"funmwlangs-header": "Ye may enable, disable, and rename custom talk here. To add new talk, use the blank boxes on topdeck",
+	"funmwlangs-invalid": "The talk code may only contain little letters and a hyphen, must be at least two letters short, and cannot start or end with a hypen. The talk code cannot be blank matey",
+	"funmwlangs-nowrite": "Problem writing to the settings file captain, everything is the same",
+	"funmwlangs-success": "Changes have be made, Captain",
+	"funmwlangs-enabled": "On",
+	"funmwlangs-langcode": "Talk Code",
+	"funmwlangs-langname": "Talk Name",
+	"funmwlangs-submit": "Sail",
+	"right-langconfig": "Can sail using [[Special:Funmwlangs]]",
+	"funmwlangs-desc2": "Fun MediaWiki Languages for ye installation. Adds various talk names to ye wiki, that can be managed by a special page"
+}
